@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         val login=findViewById<Button>(R.id.elevatedButton)
 
         login.setOnClickListener {
-            val intento1 = Intent(this, MenuActivity::class.java)
+            val intento1 = Intent(this, DialisisActivity::class.java)
             startActivity(intento1)
         }
     }

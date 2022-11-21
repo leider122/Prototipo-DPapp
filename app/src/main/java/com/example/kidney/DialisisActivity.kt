@@ -10,36 +10,28 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kidney.adapter.Dialisis.DialisisAdapter
 
-class MenuActivity : AppCompatActivity() {
-
-   // var mtoolbar:Toolbar ? = null
-
+class DialisisActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_menu)
+        setContentView(R.layout.activity_dialisis)
 
         initRecyclerView()
-        var toolbar:Toolbar = findViewById(R.id.main_toolbar)
+       /* var toolbar: Toolbar = findViewById(R.id.main_toolbar)
         toolbar.setTitle("")
 
 
-        setSupportActionBar(findViewById(R.id.main_toolbar))
-
-
+        setSupportActionBar(findViewById(R.id.main_toolbar))*/
     }
 
     private fun initRecyclerView(){
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerDialisis)
-        println("recicler ess")
-        println(recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = DialisisAdapter(DialisisProvider.dialisisList)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         super.onCreateOptionsMenu(menu)
-        getMenuInflater().inflate(R.menu.main_menu, menu)
-
+        menuInflater.inflate(R.menu.main_menu, menu)
         return true
     }
 
