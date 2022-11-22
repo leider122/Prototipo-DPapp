@@ -15,12 +15,12 @@
         app:layout_constraintTop_toTopOf="parent"
         />-->
     <TextView
+        app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/toolbar_subtitle"
         style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-
         android:textColor="@color/white"
         android:text="Mis Dialisis"
         android:background="#29b6f6"

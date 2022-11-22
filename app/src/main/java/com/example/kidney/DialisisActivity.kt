@@ -1,5 +1,6 @@
 package com.example.kidney
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -15,12 +16,10 @@ class DialisisActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dialisis)
 
+
         initRecyclerView()
-       /* var toolbar: Toolbar = findViewById(R.id.main_toolbar)
-        toolbar.setTitle("")
 
 
-        setSupportActionBar(findViewById(R.id.main_toolbar))*/
     }
 
     private fun initRecyclerView(){
