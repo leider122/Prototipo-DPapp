@@ -9,9 +9,12 @@ import android.widget.Toast
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
 import com.google.android.material.navigation.NavigationView
 
-class AppbarActivity : AppCompatActivity() {
+class AppbarActivity : AppCompatActivity(){
 
     lateinit var toggle : ActionBarDrawerToggle
 
@@ -31,9 +34,11 @@ class AppbarActivity : AppCompatActivity() {
         navView.setNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.misDialisis -> {
-                    //como fragment o activities??????????
-                    val intento1 = Intent(this, DialisisActivity::class.java)
-                    startActivity(intento1)
+                    val transaccion : FragmentTransaction = supportFragmentManager.beginTransaction()
+                    val nuevoFragmento:Fragment  = DialisisFragment()
+                    transaccion.replace(R.id.container, nuevoFragmento)
+                    transaccion.commit()
+                    drawerLayout.close()
                 }
 
                 R.id.misCitas -> Toast.makeText(applicationContext, "clicked mis citas", Toast.LENGTH_SHORT).show()

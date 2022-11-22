@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "180513130236",
+    "firebase_url": "https://kidneyapp-3906b-default-rtdb.firebaseio.com",
+    "project_id": "kidneyapp-3906b",
+    "storage_bucket": "kidneyapp-3906b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180513130236:android:d5c6842ef616f4435fb979",
+        "android_client_info": {
+          "package_name": "com.example.kidney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180513130236-fm8gl26pd0lplqljpn6fns7vid4s8fp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD85azCEuQYj9aJcyTiA6kadMoQemhJHUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180513130236-fm8gl26pd0lplqljpn6fns7vid4s8fp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

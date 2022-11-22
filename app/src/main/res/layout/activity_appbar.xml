@@ -7,20 +7,20 @@
     android:layout_height="match_parent"
     tools:context=".AppbarActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:name="com.example.kidney.DialisisFragment"-->
+<!--        android:id="@+id/fragmentDialisis"-->
+<!--        tools:layout="@layout/fragment_dialisis"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        />-->
+    <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="212dp"
-            android:text="hola"
-            app:layout_constraintTop_toTopOf="parent"
-            />
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="wrap_content"
+        android:id="@+id/container"
+        android:name="com.example.kidney.LayoutFragment"
+        tools:layout="@layout/fragment_layout" />
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navView"
