@@ -41,6 +41,14 @@ class AppbarActivity : AppCompatActivity(){
                     drawerLayout.close()
                 }
 
+                R.id.alimentacion -> {
+                    val transaccion : FragmentTransaction = supportFragmentManager.beginTransaction()
+                    val nuevoFragmento:Fragment  = AlimentacionFragment()
+                    transaccion.replace(R.id.container, nuevoFragmento)
+                    transaccion.commit()
+                    drawerLayout.close()
+                }
+
                 R.id.misCitas -> Toast.makeText(applicationContext, "clicked mis citas", Toast.LENGTH_SHORT).show()
 
             }
