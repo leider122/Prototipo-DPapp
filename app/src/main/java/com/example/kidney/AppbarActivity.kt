@@ -57,7 +57,7 @@ class AppbarActivity : AppCompatActivity(){
                     drawerLayout.close()
                 }
 
-               // R.id.misCitas -> Toast.makeText(applicationContext, "clicked mis citas", Toast.LENGTH_SHORT).show()
+               // R.id.misCitas -> Toast.makeTe0xt(applicationContext, "clicked mis citas", Toast.LENGTH_SHORT).show()
 
             }
             true

@@ -7,14 +7,17 @@ class DialisisProvider {
     companion object {
 
         val dialisisList = listOf<Dialisis>(
-            Dialisis("Cambiar riñon",
-                "tomó mucha gaseosa y le salieron calculos :'v",
+            Dialisis("Preescripción de la diálisis",
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
                 "https://cdn.pixabay.com/photo/2021/10/09/12/36/kidney-6694025_960_720.png"),
-            Dialisis("Dialisis de refuerzo",
-                "el riñon se esta recuperando al 100%",
+            Dialisis("Control de liquidos",
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
                 "https://cdn.pixabay.com/photo/2021/10/09/12/36/kidney-6694025_960_720.png"),
-            Dialisis("Dialisis de refuerzo",
-                "el riñon se esta recuperando al 100%",
+            Dialisis("Medicamentos",
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "https://cdn.pixabay.com/photo/2021/10/09/12/36/kidney-6694025_960_720.png"),
+            Dialisis("Estado de ánimo",
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
                 "https://cdn.pixabay.com/photo/2021/10/09/12/36/kidney-6694025_960_720.png")
         )
 

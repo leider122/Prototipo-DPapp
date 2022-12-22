@@ -11,6 +11,12 @@ class AlimentacionProvider {
             Alimentacion("Lunes, 21 de noviembre",
                 "https://cdn.pixabay.com/photo/2021/10/09/12/36/kidney-6694025_960_720.png"),
             Alimentacion("Domingo, 20 de noviembre",
+                "https://cdn.pixabay.com/photo/2021/10/09/12/36/kidney-6694025_960_720.png"),
+            Alimentacion("Domingo, 6 de noviembre",
+                "https://cdn.pixabay.com/photo/2021/10/09/12/36/kidney-6694025_960_720.png"),
+            Alimentacion("Lunes, 19 de diciembre",
+                "https://cdn.pixabay.com/photo/2021/10/09/12/36/kidney-6694025_960_720.png"),
+            Alimentacion("Martes, 20 de diciembre",
                 "https://cdn.pixabay.com/photo/2021/10/09/12/36/kidney-6694025_960_720.png")
         )
 
